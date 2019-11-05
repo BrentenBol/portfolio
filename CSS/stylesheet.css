@@ -6,8 +6,9 @@ body {
 }
 
 body{
-  background-image:url();
+  background-image:url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 900px;
 }
