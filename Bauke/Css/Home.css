@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+  margin: 0;
+  background: #222;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  color:white
+}
+body {
+  background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #EB3523;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all linear 150ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.index {
+  padding-left: 50px;
+  padding-top: 20px
+}
+
+#mijnprojecten {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+#contact {
+  padding-left:50px;
+  padding-top:20px;
+  text-align: left
+}
+
+#aboutme {
+padding-left:50px;
+padding-top:20px;
+}
+
+#image1 {
+  padding-left:140px;
+  padding-top:50px;
+}
+
+#audio {
+  color:red;
+  padding-left:50px;
+}
+
+#video {
+  padding-left: 500px;
+}
+
+#img
+{
+  float: top-right;
+  padding-top: 50px;
+}
