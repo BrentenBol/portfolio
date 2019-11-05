@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  color:black;
+}
+
+body{
+  background-image:url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
