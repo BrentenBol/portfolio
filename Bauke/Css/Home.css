@@ -6,7 +6,7 @@ body {
   font-weight: 800;
   color:white
 }
-body {
+body{
   background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -75,6 +75,7 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
 .index {
   padding-left: 50px;
   padding-top: 20px
@@ -110,8 +111,7 @@ padding-top:20px;
   padding-left: 500px;
 }
 
-#img
-{
+#img{
   float: top-right;
   padding-top: 50px;
 }
