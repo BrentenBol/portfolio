@@ -3,14 +3,20 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
   color:black;
-}
-
-body {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 900px;
+}
+
+#wrapper{
+margin: 0px auto;
+padding: 0px;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+  padding: 10px 10px;
 }
