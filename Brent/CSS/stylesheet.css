@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-float: none;
+float: right;
 }
 
 nav ul {
@@ -29,12 +29,11 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 23px;
   position: relative;
 }
 
 nav a {
-  color: rgb(204, 0, 255);
+  color: rgb(153, 0, 255);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -42,4 +41,9 @@ nav a {
 
 nav a:hover {
   color: rgb(117, 31, 113);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(222, 0, 252);
 }
