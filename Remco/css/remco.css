@@ -1,0 +1,51 @@
+body{
+  background-color: #20416b;
+  margin: auto;
+
+}
+
+nav{
+  border-color:  cornflowerblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(105, 104, 104)
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  li a:hover{
+    color: black;
+    background-color: rgb(88, 168, 8);
+  }
+  
+  h2{
+    color: aliceblue;
+  }
+
+  header{
+  background-color: rgb(105, 104, 104);
+  padding: 15px;
+  }
+
+  .wrapper{
+    padding: 10px;
+  }
+
+  p{
+    color: cornsilk;
+  }
