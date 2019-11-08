@@ -1,5 +1,5 @@
   h1 {
-    color: rgb(252, 0, 0);
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
@@ -30,4 +30,8 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   color: rgb(0,0,0);
+}
+
+.homecontent{
+  text-align:center
 }
