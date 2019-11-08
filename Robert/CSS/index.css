@@ -48,24 +48,18 @@ footer {
 	'copyright copyright copyright'
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;            /* Footer height */
-}
-
 #email {
 	grid-area: email;
 	text-align: left;
 	font-size: 15px;
-	padding: 20px 10px 0 10px;
+	padding: 10px 20px 0 10px;
 }
 
 #locatie {
 	grid-area: locatie;
 	text-align: right;
 	font-size: 15px;
-	padding: 20px 10px 0 10px;
+	padding: 10px 20px 0 10px;
 }
 
 #copyright {
