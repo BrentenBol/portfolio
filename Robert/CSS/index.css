@@ -1,0 +1,106 @@
+body{
+	background-color: black;
+	font-family: "Georgia", serif
+}
+
+/* grid layout */
+
+#wrapper {
+	border: black 2px solid;
+	display: grid;
+	grid-template-areas: 
+	'header header header'
+	'nav nav nav'
+	'content content content'
+	'footer footer footer'
+}
+
+header {
+	background-image: url('../Images/header.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	grid-area: header;
+	font-size: 50px;
+	color: white;
+	padding: 25px 10px;
+	text-align: right;
+}
+
+nav {
+	font-size: 25px;
+	background-color: #cc0003;
+	grid-area: nav;
+}
+
+#content {
+	color: black;
+	background-color: #9b9b9b;
+	grid-area: content;
+	padding: 10px 15px;
+}
+
+footer {
+	background-color: #cc0003;
+	grid-area: footer;
+	display: grid;
+	grid-template-areas: 
+	'email 1 locatie'
+	'copyright copyright copyright'
+}
+
+#email {
+	grid-area: email;
+	text-align: left;
+	font-size: 15px;
+	padding: 10px 20px 0 10px;
+}
+
+#locatie {
+	grid-area: locatie;
+	text-align: right;
+	font-size: 15px;
+	padding: 10px 20px 0 10px;
+}
+
+#copyright {
+	grid-area: copyright;
+	text-align: center;
+	font-size: 10px;
+	padding: 5px;
+}
+
+
+/* navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+li:last-child {
+	float: right;
+}
+
+a {
+  display: block;
+  padding: 5px;
+}
+
+/* End of navigation */
